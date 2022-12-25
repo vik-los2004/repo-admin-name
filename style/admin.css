@@ -1,0 +1,484 @@
+body * { 
+	font-family: 'Montserrat', sans-serif; font-size: .83vw; 
+}
+
+body {
+	overflow-x: hidden;
+}
+
+header {
+	background: #161A2B;
+	width: 100vw;
+	height: 7.3vw;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.logo {
+	width: 7.50vw;
+	height: 7.50vw;
+	left: 2vw;
+	position: absolute;
+}
+
+.name {
+	font-size: 1.25em;
+	line-height: 1.625em;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 30vw;
+	color: #FCBE63;
+	margin-left: 10.50vw;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	width: 40vw;
+	height: 2.77vw;
+	align-items: center;
+} 
+
+nav {
+	margin-right: 15vw;
+	display: flex;
+	align-items: center;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #FCBE63;
+	font-size: 1.8em;
+	margin-left: 10vw;
+}
+
+.n {
+	color: #ECC49D;
+}
+
+section {
+	width: 100vw;
+}
+
+#section1 {
+	height: 38.6vw;
+	position: relative;
+}
+
+.pict {
+	height: 28.96vw;
+	width: 32.09vw;
+	position: absolute;
+	top: 0vw;
+	left: 67.92vw;
+}
+
+.container {
+	width: 100vw;
+	height: 38.6vw;
+	background-color: #ECC49D;
+	position: relative;
+}
+
+.cit {
+	font-style: italic;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	width: 44.9vw;
+	top: 8.34vw;
+	left: 7.24vw;
+	position: absolute;
+}
+
+.cit1 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	width: 30vw;
+	top: 23vw;
+	left: 7.24vw;
+	position: absolute;
+}
+
+.block {
+	z-index: 3;
+	width: 27.14vw;
+	height: 26.2vw;
+	top: 8.23vw;
+	left: 57.3vw;
+	background-color: #161A2B;
+	position: absolute;
+	border-radius: 0.53vw;
+}
+
+.block .logo1 {
+	width: 27vw;
+	height: 27vw;
+	top: 6.2vw;
+	left: 64.33vw;
+}
+
+#section2 {
+	height: 30.47vw;
+	position: relative;
+}
+
+.container1 {
+	width: 50.0vw;
+	height: 30.47vw;
+	background-color: #161A2B;
+	position: relative;
+}
+
+.palka {
+	top: 29.68vw;
+	left: 0vw;
+	width: 50.0vw;
+	position: absolute;
+}
+
+.karta {
+	width: 50.0vw;
+	height: 30.47vw;
+	top: 0vw;
+	left: 50.0vw;
+	position: absolute;
+}
+
+.we {
+	font-size: 2.25em;
+	line-height: 1.5em;
+	top: 3.91vw;
+	left: 7.24vw;
+	position: absolute;
+	color: #FCBE63;
+}
+
+.we1 {
+	font-size: 1.25em;
+	line-height: 2em;
+	width: 35.47vw;
+	top: 7.5vw;
+	left: 7.24vw;
+	position: absolute;
+	color: white;
+}
+
+#section3 {
+	height: 43.55vw;
+	position: relative;
+	background-color: #ECC49D;
+}
+
+#section3 h1 {
+	font-size: 2.25em;
+	line-height: 1.5em;
+	top: 4.48vw;
+	left: 8vw;
+	position: absolute;
+	color: #161A2B;
+}
+
+.fun {
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	padding-top: 9vw;
+}
+
+.img1 {
+	width: 6.88vw;
+	height: 6.57vw;
+	top: 0vw;
+	left: 0vw;
+	position: absolute;
+}
+
+.fun .container {
+	position: relative;
+	width: 38.34vw;
+	height: 11.2vw;
+	background-color: white;
+	margin-bottom: 6vw;
+}
+
+.fun .container:hover {
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
+.palka1 {
+	left: 15vw;
+	top: 11vw;
+	position: absolute;
+	width: 25.08vw;
+	height: 0.27vw;
+}
+
+.fun1 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	top: 0.89vw;
+	left: 9.48vw;
+	width: 26.62vw;
+	position: absolute;
+	color: #161A2B;
+}
+
+#section4 {
+	height: 19.9vw;
+	position: relative;
+	background-color: #161A2B;
+}
+
+#section4 h1 {
+	font-size: 2em;
+	line-height: 1.5em;
+	top: 2vw;
+	left: 8.34vw;
+	position: absolute;
+	color: #FCBE63;
+}
+
+.gold1 {
+	left: 8.34vw;
+	top: 6.88vw;
+	height: 9.85vw;
+	position: absolute;
+}
+
+.gold2 {
+	left: 30.0vw;
+	top: 6.88vw;
+	height: 9.85vw;
+	position: absolute;
+}
+
+.gold3 {
+	left: 51.67vw;
+	top: 6.88vw;
+	height: 9.85vw;
+	position: absolute;
+}
+
+.gold4 {
+	left: 72.97vw;
+	top: 6.88vw;
+	height: 9.85vw;
+	position: absolute;
+}
+
+.dn1 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	top: 6.67vw;
+	left: 9.59vw;
+	width: 11vw;
+	position: absolute;
+	color: white;
+}
+
+.gr1 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	width: 15.89vw;
+	top: 11.62vw;
+	left: 9.59vw;
+	position: absolute;
+	color: white;
+}
+
+.dn2 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	top: 6.67vw;
+	left: 31.41vw;
+	width: 11vw;
+	position: absolute;
+	color: white;
+}
+
+.gr2 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	width: 15.89vw;
+	top: 11.62vw;
+	left: 31.41vw;
+	position: absolute;
+	color: white;
+}
+
+.dn3 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	top: 6.67vw;
+	left: 53.08vw;
+	width: 16vw;
+	position: absolute;
+	color: white;
+}
+
+.gr3 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	width: 15.89vw;
+	top: 11.62vw;
+	left: 53.08vw;
+	position: absolute;
+	color: white;
+}
+
+.dn4 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	top: 6.67vw;
+	left: 74.22vw;
+	width: 11vw;
+	position: absolute;
+	color: white;
+}
+
+.gr4 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	width: 15.89vw;
+	top: 11.62vw;
+	left: 74.22vw;
+	position: absolute;
+	color: white;
+}
+
+#section5 {
+	height: 38.55vw;
+	position: relative;
+	background-color: #ECC49D;
+}
+
+#section5 h1 {
+	font-size: 2.25em;
+	line-height: 1.5em;
+	top: 2.71vw;
+	left: 8.34vw;
+	position: absolute;
+	color: #161A2B;
+}
+
+#section5 img {
+	width: 55.53vw;
+    height: 22.61vw;
+}
+
+.d-block {
+	margin-top: 8.39vw;
+	height: 30vw;
+}
+
+.carousel-control-next-icon {
+	margin-top: 8.39vw;
+}
+
+.carousel-control-prev-icon {
+	margin-top: 8.39vw;
+}
+
+#section6 {
+	height: 24.69vw;
+	position: relative;
+	background-color: #ECC49D;
+}
+
+.blur {
+	position: absolute;
+	width: 64.69vw;
+	height: 14.85vw;
+	top: 2.5vw;
+	left: 17.66vw;
+	background: rgba(22, 26, 43, 0.7);
+	border-radius: 0.79vw;
+	position: relative;
+}
+
+.question {
+	font-size: 3em;
+	color: #EECCAA;
+	top: 1.72vw;
+	left: 4.59vw;
+	position: absolute;
+}
+
+.input {
+	position: absolute;
+	width: 55.53vw;
+	height: 5.84vw;
+	border-radius: 0.79vw;
+	background-color: #ECC49D;
+	border: 0.21vw;
+	top: 6.46vw;
+	left: 4.59vw;
+	font-size: 2.5em;
+}
+
+.submit {
+	height: 3.44vw;
+	width: 12.14vw;
+	position: absolute;
+	left: 46vw;
+	top: 7.66vw;
+	border-radius: 0.79vw;
+	background-color: #161A2B;
+	font-size: 2em;
+	color: #ECC49D;
+}
+
+footer {
+	background: #161A2B ;
+	width: 100vw;
+	height: 9.64vw;
+	position: relative;
+}
+
+.logo2 {
+ 	width: 9.6vw; 
+ 	height: 9.6vw;
+ 	top: 0.08vw;
+ 	left: 8vw;
+ 	position: absolute;
+}
+
+.foot {
+	width: 36vw;
+	left: 24.8vw;
+	top: 3.44vw;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #FCBE63;
+	position: absolute;
+}
+
+.foot1 {
+	width: 36vw;
+	left: 63.13vw;
+	top: 3.44vw;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #FCBE63;
+	position: absolute;
+}
+
+.topbutton {
+	width: 3vw;
+	height: 3vw;
+	position: fixed;
+	top: 42vw;
+	right: 3vw; 
+	z-index: 3;
+}
+
+.scroll-to-top {
+	width: 4vw;
+	height: 4vw;
+}
